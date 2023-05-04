@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/helper.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+           <div class="app-header flex flex-align-center flex-justify-space-between">
+            <div class="app-header-logo flex flex-align-center">
+                <div class="app-header-menu flex flex-align-center flex-justify-center"><ion-icon name="menu-outline"></ion-icon></div>
+                <div class="app-header-logo-item flex flex-align-center flex-justify-center">PortFolio</div>
+            </div>
+            <div class="app-header-searchBar flex flex-align-center">
+                <input type="text" name="" id="" placeholder="Search here ...">
+                <div class="app-header-searchBar-icon flex flex-align-center flex-justify-center"><ion-icon name="search"></ion-icon></div>
+                <button class="app-header-searchBar-btn flex flex-align-center flex-justify-center"><ion-icon name="send-outline"></ion-icon></button>
+            </div>
+            <div class="app-header-tools flex flex-align-center">
+                <div class="app-header-toolitem">
+                    <div class="app-header-toolitem-header flex flex-align-center flex-justify-center"><ion-icon name="notifications-outline"></ion-icon></div>
+                    <div class="app-header-toolitem-body"></div>
+                </div>
+                <div class="app-header-toolitem">
+                    <div class="app-header-toolitem-header flex flex-align-center flex-justify-center"><ion-icon name="person-outline"></ion-icon></div>
+                    <div class="app-header-toolitem-body"></div>
+                </div>
+            </div>
+           </div>
+           <div class="app-body flex">
+            <div class="app-aside active-model">
+                <div class="app-aside-item flex flex-align-center">
+                    <div class="app-aside-item-icon flex flex-align-center flex-justify-center"><ion-icon name="home-outline"></ion-icon></div>
+                    <div class="app-aside-item-name">Home</div>
+                </div>
+                <div class="app-aside-item flex flex-align-center">
+                    <div class="app-aside-item-icon flex flex-align-center flex-justify-center"><ion-icon name="chatbox-outline"></ion-icon></div>
+                    <div class="app-aside-item-name">My Chat</div>
+                </div>
+                <div class="app-aside-item flex flex-align-center">
+                    <div class="app-aside-item-icon flex flex-align-center flex-justify-center"><ion-icon name="hourglass-outline"></ion-icon></div>
+                    <div class="app-aside-item-name">Pending</div>
+                </div>
+                <div class="app-aside-item flex flex-align-center">
+                    <div class="app-aside-item-icon flex flex-align-center flex-justify-center"><ion-icon name="checkmark-done-outline"></ion-icon></div>
+                    <div class="app-aside-item-name">Had Done</div>
+                </div>
+                <div class="app-aside-item flex flex-align-center">
+                    <div class="app-aside-item-icon flex flex-align-center flex-justify-center"><ion-icon name="settings-outline"></ion-icon></div>
+                    <div class="app-aside-item-name">Setting</div>
+                </div>
+            </div>
+            <div class="app-body-items" projects>
+                <div class="app-body-items-header flex flex-align-center flex-justify-space-between">
+                    <div class="app-body-items-header-name">Projects</div>
+                    <div class="app-body-items-header-date">27 July</div>
+                </div>
+                <div class="app-body-items-tools flex flex-align-center flex-justify-space-between">
+                    <div class="app-body-items-tool-items flex flex-align-center flex-justify-center">
+                        <div class="app-body-items-tool-item">
+                            <div class="app-body-items-tool-item-number">20</div>
+                            <div class="app-body-items-tool-item-name">in Progress</div>
+                        </div>
+                        <div class="app-body-items-tool-item">
+                            <div class="app-body-items-tool-item-number">40</div>
+                            <div class="app-body-items-tool-item-name">Done Project</div>
+                        </div>
+                        <div class="app-body-items-tool-item">
+                            <div class="app-body-items-tool-item-number">30</div>
+                            <div class="app-body-items-tool-item-name">Upcomming</div>
+                        </div>
+                        <div class="app-body-items-tool-item">
+                            <div class="app-body-items-tool-item-number">10</div>
+                            <div class="app-body-items-tool-item-name">Total</div>
+                        </div>
+                    </div>
+                    <div class="app-body-items-tool-items-btns flex flex-align-center flex-justify-center">
+                        <button class="app-button app-body-items-tool-items-btn flex flex-align-center flex-justify-center active-btn"><ion-icon name="grid-outline"></ion-icon></button>
+                        <button class="app-button app-body-items-tool-items-btn flex flex-align-center flex-justify-center "><ion-icon name="menu-outline"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="app-body-items-body">
+                    <div class="app-body-card-item">
+                        <div class="card-header flex flex-align-center flex-justify-space-between">
+                            <div class="card-header-date">July 2, 2020</div>
+                            <button class="app-button card-header-tool flex flex-align-center flex-justify-center"><ion-icon name="ellipsis-vertical-outline"></ion-icon></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-body-info flex flex-align-center">
+                                <div class="card-body-info-icon flex flex-align-center flex-justify-center"><ion-icon name="code-working-outline"></ion-icon></div>
+                                <div class="card-body-info-item">
+                                    <div class="card-body-info-item-name">Web Designing</div>
+                                    <div class="card-body-info-item-category">Prototyping</div>
+                                </div>
+                            </div>
+                            <div class="card-progressbar" bar="90%"><span style="--i:90%"></span></div>
+                        </div>
+                        <div class="card-footer flex flex-align-center flex-justify-space-between">
+                            <div class="card-footer-imgs flex flex-align-center">
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="app-button card-footer-btn flex flex-align-center flex-justify-center "><ion-icon name="add-circle"></ion-icon></div>
+                            </div>
+                            <div class="app-button card-footer-item-btn flex flex-align-center flex-justify-center">2 Days Left</div>
+                        </div>
+                    </div>
+                    <div class="app-body-card-item">
+                        <div class="card-header flex flex-align-center flex-justify-space-between">
+                            <div class="card-header-date">July 2, 2020</div>
+                            <button class="app-button card-header-tool flex flex-align-center flex-justify-center"><ion-icon name="ellipsis-vertical-outline"></ion-icon></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-body-info flex flex-align-center">
+                                <div class="card-body-info-icon flex flex-align-center flex-justify-center"><ion-icon name="code-working-outline"></ion-icon></div>
+                                <div class="card-body-info-item">
+                                    <div class="card-body-info-item-name">Web Designing</div>
+                                    <div class="card-body-info-item-category">Prototyping</div>
+                                </div>
+                            </div>
+                            <div class="card-progressbar" bar="90%"><span style="--i:90%"></span></div>
+                        </div>
+                        <div class="card-footer flex flex-align-center flex-justify-space-between">
+                            <div class="card-footer-imgs flex flex-align-center">
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="app-button card-footer-btn flex flex-align-center flex-justify-center "><ion-icon name="add-circle"></ion-icon></div>
+                            </div>
+                            <div class="app-button card-footer-item-btn flex flex-align-center flex-justify-center">2 Days Left</div>
+                        </div>
+                    </div>
+                    <div class="app-body-card-item">
+                        <div class="card-header flex flex-align-center flex-justify-space-between">
+                            <div class="card-header-date">July 2, 2020</div>
+                            <button class="app-button card-header-tool flex flex-align-center flex-justify-center"><ion-icon name="ellipsis-vertical-outline"></ion-icon></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-body-info flex flex-align-center">
+                                <div class="card-body-info-icon flex flex-align-center flex-justify-center"><ion-icon name="code-working-outline"></ion-icon></div>
+                                <div class="card-body-info-item">
+                                    <div class="card-body-info-item-name">Web Designing</div>
+                                    <div class="card-body-info-item-category">Prototyping</div>
+                                </div>
+                            </div>
+                            <div class="card-progressbar" bar="90%"><span style="--i:90%"></span></div>
+                        </div>
+                        <div class="card-footer flex flex-align-center flex-justify-space-between">
+                            <div class="card-footer-imgs flex flex-align-center">
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="app-button card-footer-btn flex flex-align-center flex-justify-center "><ion-icon name="add-circle"></ion-icon></div>
+                            </div>
+                            <div class="app-button card-footer-item-btn flex flex-align-center flex-justify-center">2 Days Left</div>
+                        </div>
+                    </div>
+                    <div class="app-body-card-item">
+                        <div class="card-header flex flex-align-center flex-justify-space-between">
+                            <div class="card-header-date">July 2, 2020</div>
+                            <button class="app-button card-header-tool flex flex-align-center flex-justify-center"><ion-icon name="ellipsis-vertical-outline"></ion-icon></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-body-info flex flex-align-center">
+                                <div class="card-body-info-icon flex flex-align-center flex-justify-center"><ion-icon name="code-working-outline"></ion-icon></div>
+                                <div class="card-body-info-item">
+                                    <div class="card-body-info-item-name">Web Designing</div>
+                                    <div class="card-body-info-item-category">Prototyping</div>
+                                </div>
+                            </div>
+                            <div class="card-progressbar" bar="90%"><span style="--i:90%"></span></div>
+                        </div>
+                        <div class="card-footer flex flex-align-center flex-justify-space-between">
+                            <div class="card-footer-imgs flex flex-align-center">
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="card-footer-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+                                <div class="app-button card-footer-btn flex flex-align-center flex-justify-center "><ion-icon name="add-circle"></ion-icon></div>
+                            </div>
+                            <div class="app-button card-footer-item-btn flex flex-align-center flex-justify-center">2 Days Left</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-body-items" chats>
+                <div class="chat">
+                    <div class="chat-header flex flex-align-center flex-justify-space-between">
+                        <div class="chat-header-name">Client Message</div>
+                        <div class="chat-header-tool flex flex-align-center">
+                            <div class="chat-header-tool-item"><ion-icon name="search"></ion-icon></div>
+                            <div class="chat-header-tool-item"><ion-icon name="ellipsis-vertical"></ion-icon></div>
+                        </div>
+                    </div>
+                    <div class="chat-body">
+                        <div class="chat-item flex flex-align-center">
+                            <div class="chat-img">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80" alt="">
+                            </div>
+                            <div class="chat-info">
+                                <div class="chat-info-item flex flex-align-center flex-justify-space-between">
+                                    <div class="chat-info-name">David</div>
+                                    <button class="app-button chat-info-btn"><ion-icon name="star-outline"></ion-icon></button>
+                                </div>
+                                <div class="chat-info-description text-ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ipsum!</div>
+                                <div class="chat-info-date">21 July</div>
+                            </div>
+                        </div>
+                        <div class="chat-item flex flex-align-center">
+                            <div class="chat-img">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80" alt="">
+                            </div>
+                            <div class="chat-info">
+                                <div class="chat-info-item flex flex-align-center flex-justify-space-between">
+                                    <div class="chat-info-name">David</div>
+                                    <button class="app-button chat-info-btn"><ion-icon name="star-outline"></ion-icon></button>
+                                </div>
+                                <div class="chat-info-description text-ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ipsum!</div>
+                                <div class="chat-info-date">21 July</div>
+                            </div>
+                        </div>
+                        <div class="chat-item flex flex-align-center">
+                            <div class="chat-img">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80" alt="">
+                            </div>
+                            <div class="chat-info">
+                                <div class="chat-info-item flex flex-align-center flex-justify-space-between">
+                                    <div class="chat-info-name">David</div>
+                                    <button class="app-button chat-info-btn"><ion-icon name="star-outline"></ion-icon></button>
+                                </div>
+                                <div class="chat-info-description text-ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ipsum!</div>
+                                <div class="chat-info-date">21 July</div>
+                            </div>
+                        </div>
+                        <div class="chat-item flex flex-align-center">
+                            <div class="chat-img">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80" alt="">
+                            </div>
+                            <div class="chat-info">
+                                <div class="chat-info-item flex flex-align-center flex-justify-space-between">
+                                    <div class="chat-info-name">David</div>
+                                    <button class="app-button chat-info-btn"><ion-icon name="star-outline"></ion-icon></button>
+                                </div>
+                                <div class="chat-info-description text-ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ipsum!</div>
+                                <div class="chat-info-date">21 July</div>
+                            </div>
+                        </div>
+                        <div class="chat-item flex flex-align-center">
+                            <div class="chat-img">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80" alt="">
+                            </div>
+                            <div class="chat-info">
+                                <div class="chat-info-item flex flex-align-center flex-justify-space-between">
+                                    <div class="chat-info-name">David</div>
+                                    <button class="app-button chat-info-btn"><ion-icon name="star-outline"></ion-icon></button>
+                                </div>
+                                <div class="chat-info-description text-ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ipsum!</div>
+                                <div class="chat-info-date">21 July</div>
+                            </div>
+                        </div>
+                        <div class="chat-item flex flex-align-center">
+                            <div class="chat-img">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80" alt="">
+                            </div>
+                            <div class="chat-info">
+                                <div class="chat-info-item flex flex-align-center flex-justify-space-between">
+                                    <div class="chat-info-name">David</div>
+                                    <button class="app-button chat-info-btn"><ion-icon name="star-outline"></ion-icon></button>
+                                </div>
+                                <div class="chat-info-description text-ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ipsum!</div>
+                                <div class="chat-info-date">21 July</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
